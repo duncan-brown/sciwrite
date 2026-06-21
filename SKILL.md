@@ -22,12 +22,17 @@ limitations under the License.
 
 # Manuscript Writing Review — Scientific Clarity and Precision
 
-**Skill Version:** 2.1
+**Skill Version:** 2.2
 **Created:** June 2025 (v1.0 by Lorena A. Barba)
 **Last Updated:** June 21, 2026
 **Fork:** [duncan-brown/sciwrite](https://github.com/duncan-brown/sciwrite), forked from [labarba/sciwrite](https://github.com/labarba/sciwrite)
 
 ## Version History
+
+- **v2.2** (2026-06-21): Golden-age writing techniques (Duncan Brown)
+  - Pass 3: added concept-introduction ordering check (Penrose pattern) and
+    payoff-before-machinery check (Misner half-track method)
+  - Added RESEARCH2.md documenting the research basis for these additions
 
 - **v2.1** (2026-06-21): Licensing and documentation (Duncan Brown)
   - Added Apache 2.0 license header to SKILL.md
@@ -58,7 +63,8 @@ limitations under the License.
 **Sources:** Dr. Kristin Sainani, "Writing in the Sciences" (Stanford, CC-BY);
 Kip S. Thorne, "Some Specific Tips About Technical Writing" (Caltech, 1987);
 John A. Wheeler, "Wheeler's Rules of Writing" (Am. J. Phys. 67, 1999);
-Nicholas J. Higham, "Handbook of Writing for the Mathematical Sciences" (SIAM, 3rd ed. 2020).
+Nicholas J. Higham, "Handbook of Writing for the Mathematical Sciences" (SIAM, 3rd ed. 2020);
+MTW@50 Anniversary Celebration (ISGRG, 2023).
 
 ## Purpose
 
@@ -292,6 +298,21 @@ paragraphs, check for navigational infrastructure: (a) an introductory paragraph
 or sentence that previews the argument's structure, (b) topic sentences at the
 beginning of each piece, (c) closing sentences that signal transitions to the
 next piece. Flag long arguments that lack this scaffolding.
+
+**Concept introduction and motivation:** Two checks for how new material is
+presented to the reader:
+
+1. *Novel-concept ordering (Penrose).* When the manuscript introduces a new
+   term or concept, check for the sequence: name it, give a one-sentence
+   physical or intuitive gloss, then state the formal definition. Flag
+   concepts that first appear as formal notation with no prior intuitive
+   setup. A binding figure, where possible, should accompany the definition.
+2. *Payoff before machinery (Misner).* When the manuscript presents extended
+   formalism — a derivation, a coordinate system, a new mathematical
+   framework — check whether the reader has first been shown the physical
+   result or application the formalism will deliver. Flag sections that
+   present mathematical machinery without first establishing what it buys
+   the reader.
 
 **Parallel structure:** When items are logically parallel (list elements,
 compared quantities, sequential steps), they should use the same grammatical
