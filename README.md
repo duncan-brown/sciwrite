@@ -94,9 +94,21 @@ You can also adjust the severity thresholds, add or remove entries from the clut
 
 If you use this skill and find an edge case it doesn't handle well — a field-specific writing convention it misjudges, a LaTeX pattern it misparses, a common clutter pattern it misses, or a false positive that comes up repeatedly — contributions are welcome. Open an issue describing the case, or submit a pull request with your proposed change.
 
+## How This Skill Was Built
+
+The development of the v2.0 extensions is documented in two companion files:
+
+- **[HISTORY.md](HISTORY.md)** — An edited transcript of the Claude conversation that produced the v2.0 update. It illustrates the full workflow: analyzing the original skill's architecture, comparing it against the Thorne and Wheeler sources, designing a four-tier enhancement plan, conducting focused research on journal conventions, and implementing the final skill. Provided for pedagogical purposes.
+
+- **[RESEARCH.md](RESEARCH.md)** — A research brief on equations-as-prose conventions in physics and astronomy journals (APS, MNRAS, AAS, IOP) and the empirical evidence for and against the Sainani/Thorne/Wheeler writing principles. Produced during the development conversation using Claude's deep research capability.
+
+For the history of how the original v1.0 skill was created (using Comet, NotebookLM, and Claude), see Lorena Barba's [original README](https://github.com/labarba/sciwrite).
+
 ## License
 
-This skill is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to use, adapt, and share it, with attribution.
+This work is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). You are free to use, adapt, and share it under the terms of that license.
+
+The original v1.0 skill by Lorena A. Barba was released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). CC-BY 4.0 permits derivative works to be distributed under a different license, provided that attribution is maintained. Attribution for the original work is preserved in the [NOTICE](NOTICE) file, as required by the Apache License.
 
 ## Acknowledgments
 

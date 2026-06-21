@@ -3,14 +3,37 @@ name: manuscript-writing-review
 description: Use this skill when asked to review, edit, or improve the writing quality of a scientific or engineering manuscript, including LaTeX source. Triggers include requests to review writing, check a manuscript, improve clarity, clean up prose, edit for journal submission, fix passive voice, enforce keyword consistency, check that equations are written as prose, or prepare a manuscript for submission to a physics or astronomy journal (Physical Review, MNRAS, ApJ, CQG, etc.). Also triggers for general scientific writing review in any discipline. Do NOT use for content/technical review of methods or results, statistical analysis, or citation formatting.
 ---
 
+<!--
+Copyright 2025 Lorena A. Barba
+Copyright 2026 Duncan Brown
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
 # Manuscript Writing Review — Scientific Clarity and Precision
 
-**Skill Version:** 2.0
+**Skill Version:** 2.1
 **Created:** June 2025 (v1.0 by Lorena A. Barba)
-**Last Updated:** June 20, 2026
+**Last Updated:** June 21, 2026
 **Fork:** [duncan-brown/sciwrite](https://github.com/duncan-brown/sciwrite), forked from [labarba/sciwrite](https://github.com/labarba/sciwrite)
 
 ## Version History
+
+- **v2.1** (2026-06-21): Licensing and documentation (Duncan Brown)
+  - Added Apache 2.0 license header to SKILL.md
+  - Relicensed from CC-BY 4.0 to Apache 2.0 (see NOTICE for attribution)
+  - Added NOTICE file, HISTORY.md, and RESEARCH.md
+  - Updated README.md with build history and license information
 
 - **v2.0** (2026-06-20): Physics and astronomy extensions (Duncan Brown)
   - Added Kip S. Thorne and John A. Wheeler writing principles throughout
