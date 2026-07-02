@@ -14,7 +14,7 @@ The first step in remixing an existing skill is understanding what you are start
 
 Lorena Barba has written a skill to help engineering doctoral students improve the writing in their papers by following best practices. We are going to build on this skill to include two classic documents on best writing practices for physicists. First load the skill-creator skill to make sure you understand the format and structure of skills. Then parse all of the information from the GitHub repository containing the existing skill at https://github.com/labarba/sciwrite
 
-Make sure you copy https://github.com/dda4ef83-4d85-4e0f-ba50-4e39d39aec55 locally as that is the SKILL.md file you will be modifying. 
+Make sure you copy [https://github.com/dda4ef83-4d85-4e0f-ba50-4e39d39aec55](https://github.com/labarba/sciwrite/blob/8a57fa73d541bdcf7d8501db61c018cb454e9afa/SKILL.md) locally as that is the SKILL.md file you will be modifying. 
 
 Then read the attached two documents. The first is Kip Thorne’s writing tips from 1987. I was a postdoc with Kip; he gives this document to all of his mentees and I have given this document to all of mine. The second is a shorter writing skills document from John Wheeler, Kip’s PhD advisor. Both Kip and Wheeler are outstanding writers in the field of physics.
 
